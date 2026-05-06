@@ -57,6 +57,7 @@ npm install vue-img-cutter@3 --save-dev # vue3 + vite + typescript
 
 ```javascript
 import ImgCutter from 'vue-img-cutter'
+import 'vue-img-cutter/vue-img-cutter.css'
 export default {
         components:{
             ImgCutter
@@ -203,9 +204,19 @@ forIe9:function(){
 
 ---
 
+#### 3.1.1
+
+- 新增volta配置
+- nodejs开发版本：22.22.2
+- 更新文档
+
+---
+
 #### 3.1.0
 
 - 项目重构为 vue3 + vite + typescript
+
+> 需要新增引入：import 'vue-img-cutter/vue-img-cutter.css' // v3
 
 ---
 
